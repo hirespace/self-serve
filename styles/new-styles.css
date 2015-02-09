@@ -1,95 +1,23 @@
-.table, .admin-table label {
-    font-size: 14px;
+.thumbnail h2 {
+	padding: 20px 15px;
+	margin: 0;
+	border-bottom: dashed 2px #dedede;
+	border-top: dashed 2px #dedede;
 }
-
-.btn:active, .btn.active {
-	box-shadow :none;
-	text-decoration: none;
+.thumbnail h3 {
+	color: #4e833c;
+	font-size: 40px;
+	padding: 25px 0;
+	margin: 0 0 20px;
+	background-color: #f4f4f4;
+	border-bottom: 2px dashed #dedede;
 }
-
-.dropdown-menu > li > a {
-	font-size: 13px;
+.thumbnail {
+	border: none;
 }
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-	background-color: #dddddd;
+.thumbnail ul {
+	height: 200px;
 }
-
-.pagination {
-	width: 175px;
-	margin: 0 auto;
-	display:block;
-}
-
-.admin-table {
-	table-layout: fixed;
-	width:auto;
-}
-.admin-table .section-name {
-	width: 40%;
-	border-right: solid 1px #dddddd;
-}
-.admin-table .date {
-	width: 10%;
-}
-.admin-table .name {
-	width: 30%;
-}
-.admin-table .status {
-	width: 10%;
-}
-.admin-table .perc {
-	width: 4%;
-}
-.admin-table .live {
-	width: 6%;
-}
-.admin-table td,
-.admin-table th
- {
-	border-right: solid 1px #dddddd;
-}
-.admin-table .actions {
-	border-right: none;
-}
-
-.admin-list,
-.admin-list label {
-    font-size: 14px;
-}
-.admin-list .headers {
-	font-weight: bold;
-}
-.admin-list .column {
-	float: left;
-	padding: 8px;
-	border-right: 1px solid #dddddd;
-	border-top: 1px solid #dddddd;
-}
-.admin-list .section-name {
-	width: 37%;
-	border-top: none;
-}
-.admin-list .date {
-	width: 12%; /**/
-}
-.admin-list .name {
-	width: 22%;
-}
-.admin-list .status {
-	width: 8%; /**/
-}
-.admin-list .perc {
-	width: 7%; /**/
-}
-.admin-list .live {
-	width: 6%; /**/
-}
-.admin-list .actions {
-	width: 8%; /**/
-	border-right: none;
-}
-
-.modal-dialog {
-	width:760px;
+.thumbnail li {
+	margin-bottom: 20px;
 }

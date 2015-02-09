@@ -1,19 +1,15 @@
 .thumbnail h2 {
 	padding: 20px 15px;
+	background-color: #535584;
+	color: #fff;
 	margin: 0;
-	border-bottom: dashed 2px #dedede;
-	border-top: dashed 2px #dedede;
 }
 .thumbnail h3 {
 	color: #4e833c;
 	font-size: 40px;
 	padding: 25px 0;
 	margin: 0 0 20px;
-	background-color: #f4f4f4;
-	border-bottom: 2px dashed #dedede;
-}
-.thumbnail {
-	border: none;
+	border-bottom: 2px solid #dedede;
 }
 .thumbnail ul {
 	height: 200px;

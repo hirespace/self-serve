@@ -25,10 +25,6 @@ $(document).ready(function(){
         }
     });
 
-    $('glyphicon-chevron-up').click() function({
-        
-    });
-
     // Function to animate sections
     var animateSection = function(sectionName, offset){
         console.log(sectionName);

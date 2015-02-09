@@ -23,7 +23,10 @@ $(document).ready(function(){
         else {
             $(animateSection(element,0));
         }
+    });
 
+    $('glyphicon-chevron-up').click() function({
+        
     });
 
     // Function to animate sections

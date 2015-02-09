@@ -1,19 +1,27 @@
 .thumbnail h2 {
-	padding: 20px 15px;
-	background-color: #535584;
 	color: #fff;
+	font-size: 40px;
+	background-color: #535584;
+	padding: 20px 15px;
 	margin: 0;
 }
 .thumbnail h3 {
 	color: #4e833c;
 	font-size: 40px;
-	padding: 25px 0;
-	margin: 0 0 20px;
 	border-bottom: 2px solid #dedede;
+	padding: 25px 0;
+	margin: 0 30px 20px 30px;
 }
 .thumbnail ul {
 	height: 200px;
 }
 .thumbnail li {
 	margin-bottom: 20px;
+}
+.thumbnail {
+	-webkit-transition: border-color linear 0.4s;
+    transition: border-color linear 0.4s;
+}
+.thumbnail.active {
+	border-color: #535584;
 }

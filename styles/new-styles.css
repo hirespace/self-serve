@@ -25,3 +25,11 @@
 .thumbnail.active {
 	border-color: #535584;
 }
+.pretty-list {
+	margin-top: 15px;
+}
+.pretty-list li {
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 1.5;
+}

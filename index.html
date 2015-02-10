@@ -152,26 +152,15 @@
     </div>
 </section>
 
-<!-- <section class="inline-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="current-venue-header pretty-font">
-                    <i class="glyphicon glyphicon-wrench"></i> Pricing
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
+<!-- Plan boxes -->
 <section>
     <div class="container">
         <div class="row">
-            <div id="waddyawant" class="col-md-12 top-margin bottom-margin">
+            <div id="home" class="col-md-12 top-margin bottom-margin">
                 <h2 class="h1 text-center">What do you want from Hire Space?</h2>
             </div>
             <div class="col-sm-4 col-md-4">
-                <div class="thumbnail text-center">
+                <div id="starter-thumb" class="thumbnail text-center">
                     <h2 class="upper">Starter</h2>
                     <h3 class="upper">Free</h3>
                     <div class="caption">
@@ -179,12 +168,12 @@
                             <li>Feature on the UK's #1 Venue Website</li>
                             <li>Gain access to thousands of venue enquiries from up to 100,000 visitors per month</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#pricing1">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#starter">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4">
-                <div class="thumbnail text-center">
+                <div id="partner-thumb" class="thumbnail text-center">
                     <h2 class="upper">Partner</h2>
                     <h3 class="upper">£28pm</h3>
                     <div class="caption">
@@ -194,12 +183,12 @@
                             <li>Regular profile consultations</li>
                             <li style="font-weight:bold"><span style="font-size: 20px">x20</span> profile views than Free Plan</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#pricing2">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#partner">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-4">
-                <div class="thumbnail text-center">
+                <div id="prime-thumb" class="thumbnail text-center">
                     <h2 class="upper">Prime</h2>
                     <h3 class="upper">Let's talk</h3>
                     <div class="caption">
@@ -209,7 +198,7 @@
                             <li>Prime website features</li>
                             <li style="font-weight:bold"><span style="font-size: 20px">x100+</span> profile views than Free Plan</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#pricing3">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#prime">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -217,31 +206,105 @@
     </div>
 </section>
 
+<!-- Plan details -->
 <section>
     <div class="container">
         <div class="row">
-            <div id="pricing1" data-role="showme" class="col-md-offset-2 col-md-8 collapse">
-                <div class="well">
-                    <button aria-label="Close" data-dismiss="showme" class="close" type="button"><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span></button>
-                    <h4 class="h1 text-center">Starter</h4>
-                    <p class="h3 text-center bottom-med-margin">Get seen on the UK's favourite venue website</p>
-                    <p style="font-size: 18px; font-weight: bold;line-height:1.6; margin-bottom: 20px">By creating a profile for your venue on Hire Space, you will have access to enquiries from over 100,000 people who visit our site each month, free of charge.</p>
+            <div id="starter" data-role="showme" class="col-md-12 collapse">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-inline pull-right top-sm-margin">
+                            <li><a class="btn btn-default" data-role="showit" href="#partner">Partner <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+                            <li><a class="btn btn-danger" data-role="closer" href=""><span class="glyphicon glyphicon-remove"></span></a></li>
+                        </ul>
+                        <h4 class="h1 dashed-bottom bottom-tiny-pad bottom-med-margin">Starter</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="h3 bottom-sm-margin">Get seen on the UK's favourite venue website</p>
+                        <p style="font-size: 18px; font-weight: bold;line-height:1.6; margin-bottom: 20px">By creating a profile for your venue on Hire Space, you will have access to enquiries from over 100,000 people who visit our site each month, free of charge.</p>
+                        <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well">
+                            <p class="h3">Features</p>
+                            <ul class="pretty-list">
+                                <li>Live profile on hirespace.com </li>
+                                <li>Exposure through Hire Space search, and on Google</li>
+                                <li>Receive to up to 5 enquiries per month </li>
+                                <li>10% service charge on confirmed bookings</li> 
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="pricing2" data-role="showme" class="col-md-offset-2 col-md-8 collapse">
-                <button aria-label="Close" data-dismiss="showme" class="close" type="button"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-                <h4 class="h1 text-center">Partner</h4>
-                <p class="h3 text-center bottom-med-margin">x20 more impressions than a free profile</p>
+
+            <div id="partner" data-role="showme" class="col-md-12 collapse">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-inline pull-right top-sm-margin">
+                            <li><a class="btn btn-default" data-role="showit" href="#starter"><span class="glyphicon glyphicon-chevron-left"></span> Starter</a></li>
+                            <li><a class="btn btn-default" data-role="showit" href="#prime">Prime <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+                            <li><a class="btn btn-danger" data-role="closer" href=""><span class="glyphicon glyphicon-remove"></span></a></li>
+                        </ul>
+                        <h4 class="h1 dashed-bottom bottom-tiny-pad bottom-med-margin">Partner</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="h3 bottom-med-margin">x20 more impressions than a free profile</p>
+                        <p style="font-size: 18px; font-weight: bold;line-height:1.6; margin-bottom: 20px">Hire Space Basic is a low risk, high reward option for venues eager to receive the maximum possible enquiries, gain exposure on Twitter, and unlock profile features.</p>
+                        <p class="h3">£28 pm</p>
+                        <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well">
+                            <p class="h3">Features</p>
+                            <ul class="pretty-list">
+                                <li>Unlimited Enquiries</li>
+                                <li>Included in social media</li>
+                                <li>Promote specific dates</li>
+                                <li>Expert Profile consultation</li>
+                                <li>Advanced Profile analytics</li>
+                                <li>Inclusion on client shortlists</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="pricing3" data-role="showme" class="col-md-offset-2 col-md-8 collapse">
-                <button aria-label="Close" data-dismiss="showme" class="close" type="button"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
-                <h4 class="h1 text-center">Prime</h4>
-                <p class="h3 text-center bottom-med-margin">x1,000 more impressions than a free profile</p>
+
+            <div id="prime" data-role="showme" class="col-md-12 collapse">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="list-inline pull-right top-sm-margin">
+                            <li><a class="btn btn-default" data-role="showit" href="#partner"><span class="glyphicon glyphicon-chevron-left"></span> Partner</a></li>
+                            <li><a class="btn btn-danger" data-role="closer" href=""><span class="glyphicon glyphicon-remove"></span></a></li>
+                        </ul>
+                        <h4 class="h1 dashed-bottom bottom-tiny-pad bottom-med-margin">Prime</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="h3 bottom-med-margin">x1,000 more impressions than a free profile</p>
+                        <p style="font-size: 18px; font-weight: bold;line-height:1.6; margin-bottom: 20px">The Prime package is a comprehensive solution to driving customers to your venue. Unlock all the Hire Space features, expertise and exposure.</p>
+                        <p class="h3">Let's talk</p>
+                        <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="well">
+                            <p class="h3">Features</p>
+                            <ul class="pretty-list">
+                                <li>Feature on front page</li>
+                                <li>Host key client events</li>
+                                <li>Bespoke marketing on request</li>
+                                <li>Digital marketing consultancy</li>
+                                <li>Digital account manager</li>
+                                <li>Google PPC campaigns</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
+<!-- The audience -->
 <section>
     <div class="container">
         <div class="row bottom-margin">
@@ -264,6 +327,7 @@
     </div>
 </section>
 
+<!-- Footer -->
 <section>
     <footer class="footer top-med-pad">
         <div class="content bottom-sm-margin bottom-med-pad">

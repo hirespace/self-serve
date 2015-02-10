@@ -27,9 +27,73 @@
 }
 .pretty-list {
 	margin-top: 15px;
+	padding-left: 20px;
 }
 .pretty-list li {
 	margin-top: 10px;
 	font-size: 18px;
 	line-height: 1.5;
+}
+.dashed-top {
+	border-top: 3px dashed #d4d4d4;
+}
+
+.quote-entry .quote-description {
+	margin-left: 26%;
+}
+.quote-img {
+	float: left;
+	width: 23%;
+	border: solid 2px #d4d4d4;
+	border-radius: 50%;
+}
+.quoter {
+	display: block;
+	font-style: italic;
+	font-size: 16px;
+}
+.quote-description {
+	font-size: 18px;
+	line-height: 1.4;
+}
+.quote-description 	q {
+	quotes: "“" "”" "‘" "’";
+	font-style: italic;
+}
+.quote-description q:before,
+.quote-description q:after {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	line-height: 0;
+	vertical-align: -0.45em;
+	color: #cc6633;
+	font-weight: normal;
+}
+.quote-description q:before {
+	content: open-quote;
+	margin-right: 5px;
+}
+.quote-description q:after {
+	content: close-quote;
+	margin-left: 5px;
+}
+
+.quote-entry-large .quote-description q:before,
+.quote-entry-large .quote-description q:after {
+	font-size: 90px;
+	vertical-align: -0.40em;
+	color: #59cff5;
+}
+.quote-entry-large .quote-img {
+	border: none;
+	border-radius: 0;
+}
+.quote-entry-large .quote-description {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+.quote-entry-large .quoter {
+	font-style: normal;
+	font-size: 18px;
 }

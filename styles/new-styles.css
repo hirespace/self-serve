@@ -103,6 +103,43 @@
 	margin-left: 10px;
 }
 
+.special-checkbox {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+.special-checkbox input[type="checkbox"] {
+	margin:0 5px 0 0;
+	float:none;
+}
+.special-checkbox label {
+	padding: 7px 10px 4px;
+	display: block;
+}
+
+.current-plan {
+	position: absolute;
+	border: 3px solid #dedede;
+	background-color: #4e833c;
+	border-radius: 50%;
+	color: #fff;
+	width: 80px;
+	height: 80px;
+	left: -11px;
+	top: -26px;
+	font-weight: bold;
+	line-height: 1.2;
+	padding: 16px 5px 5px;
+	font-size: 13px;
+	color: #fff;
+}
+.current-plan:hover,
+.current-plan:focus,
+.current-plan:active {
+	background-color: #6ea35c;
+	color: #fff;
+	text-decoration : none;
+}
+
 @media (max-width: 991px) {
     .thumbnail h2 {
     	font-size: 30px;

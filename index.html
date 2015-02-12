@@ -166,9 +166,37 @@
                     <div class="caption">
                         <ul class="list-unstyled">
                             <li>Feature on the UK's #1 Venue Website</li>
-                            <li>Gain access to thousands of venue enquiries from up to 100,000 visitors per month</li>
+                            <li>Gain access to thousands of venue enquiries from over 100,000 visitors per month</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#starter">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block upper" data-role="showit" href="#starter">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                    <a href="#current-plan-modal" data-toggle="modal" data-target="#starter-plan-modal" class="current-plan text-center upper">Your Plan<br/><span class="glyphicon glyphicon-plus"></span></a>
+                </div>
+                <!-- Your plan modal -->
+                <div class="modal fade text-left" id="starter-plan-modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <form>
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title h3">Your <b>Starter</b> venues</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row bottom-sm-margin bottom-sm-pad">
+                                        <div class="col-md-12">
+                                            <ul class="list-unstyled">
+                                                <li>Venue 1</li>
+                                                <li>Venue 2</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" data-toggle="modal" data-target="#prime-modal" class="btn btn-default btn-primary">Upgrade to Partner</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -183,7 +211,35 @@
                             <li>Regular profile consultations</li>
                             <li style="font-weight:bold"><span style="font-size: 20px">x20</span> profile views than Free Plan</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#partner">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block upper" data-role="showit" href="#partner">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </div>
+                </div>
+                <a href="#current-plan-modal" data-toggle="modal" data-target="#partner-plan-modal" class="current-plan text-center upper">Your Plan<br/><span class="glyphicon glyphicon-plus"></span></a>
+                <!-- Your plan modal -->
+                <div class="modal fade" id="partner-plan-modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <form>
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title h3">Your <b>Partner</b> venues</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row bottom-sm-margin bottom-sm-pad">
+                                        <div class="col-md-12">
+                                            <ul class="list-unstyled">
+                                                <li>Venue 3</li>
+                                                <li>Venue 4</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" data-toggle="modal" data-target="#prime-modal" class="btn btn-default btn-primary">Upgrade to Prime</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,10 +251,10 @@
                         <ul class="list-unstyled">
                             <li>Bespoke seasonal marketing campaigns</li>
                             <li>Social campaigns to key audiences</li>
-                            <li>Prime website features</li>
+                            <li>Prominent website exposure</li>
                             <li style="font-weight:bold"><span style="font-size: 20px">x100+</span> profile views than Free Plan</li>
                         </ul>
-                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block" data-role="showit" href="#prime">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
+                        <a role="button" class="btn btn-default btn-lg btn-purple btn-block upper" data-role="showit" href="#prime">Find out more <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -232,7 +288,7 @@
                         </div>
                         <div class="clearfix dashed-bottom dashed-top bottom-margin" style="padding: 15px 0;">
                             <p class="h3 pull-right" style="margin-top: 10px;">Free</p>
-                            <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                            <button class="btn btn-default btn-primary btn-lg disabled" disabled>You're already there</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">
@@ -265,7 +321,7 @@
                             <ul class="pretty-list">
                                 <li>Unlimited Enquiries</li>
                                 <li>Included in social media</li>
-                                <li>Promote specific dates</li>
+                                <li>Promote deals through Hire Space</li>
                                 <li>Expert Profile consultation</li>
                                 <li>Advanced Profile analytics</li>
                                 <li>Inclusion on client shortlists</li>
@@ -273,7 +329,7 @@
                         </div>
                         <div class="clearfix dashed-bottom dashed-top bottom-margin" style="padding: 15px 0;">
                             <p class="h3 pull-right" style="margin-top: 10px;">£28/month</p>
-                            <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                            <button class="btn btn-default btn-primary btn-lg" data-toggle="modal" data-target="#partner-modal">Get Started</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">
@@ -313,7 +369,7 @@
                         </div>
                         <div class="clearfix dashed-bottom dashed-top bottom-margin" style="padding: 15px 0;">
                             <p class="h3 pull-right" style="margin-top: 10px;">Let's talk</p>
-                            <button class="btn btn-default btn-primary btn-lg">Get Started</button>
+                            <button class="btn btn-default btn-primary btn-lg" data-toggle="modal" data-target="#prime-modal">Get Started</button>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6">
@@ -328,6 +384,106 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Modal - Partner -->
+            <div class="modal fade" id="partner-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form>
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title h3">Upgrade to Partner</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="h4 bottom-sm-margin">Select the venues to upgrade to <b>Partner</b></p>
+                                        <ul class="list-unstyled">
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 1
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 2
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 3
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 4
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 5
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 6
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-default btn-primary">Upgrade to Partner</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal - Prime -->
+            <div class="modal fade" id="prime-modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <form>
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title h3">Upgrade to Prime</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="h4 bottom-sm-margin">Select the venues to upgrade to <b>Prime</b></p>
+                                        <ul class="list-unstyled">
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 1
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 2
+                                                </label>
+                                            </li>
+                                            <li class="checkbox special-checkbox">
+                                                <label class="btn btn-default btn-purple btn-block" style="text-align: left;">
+                                                    <input type="checkbox" value="venueid"> Venue 3
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-default btn-primary">Upgrade to Prime</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -370,94 +526,95 @@
     </div>
 </section>
 
+<!-- Logos -->
 <section class="inverse-section">
-        <div class="container">
-            <div class="row clearfix">
-                <h2 class="col-md-12 text-center top-padd bottom-pad">Hire Space is used by these brands...</h2>
+    <div class="container">
+        <div class="row clearfix">
+            <h2 class="col-md-12 text-center top-padd bottom-pad">Hire Space is used by these brands...</h2>
+        </div>
+        <div class="row top-pad">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/google-logo-web.png" class="img-responsive bottom-pad">
             </div>
-            <div class="row top-pad">
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/google-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/mcsaatchi.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/universal-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Virgin_Logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/nhs-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/MSFT_logo_web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="row clearfix">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Boden-Logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/jpmorgan-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/innocent-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/brunswick-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/converse-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/SABMiller-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="row clearfix">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/topshop-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Unilever_logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/morrison's-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/frankpr_logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/max-factor-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/GStar_Raw-web.png" class="img-responsive bottom-pad">
-                </div>
-                 <div class="row clearfix">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2 offset1">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/jigsaw-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/korn-ferry-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Logo-The-Guardian-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/dr-martens-logo-web.png" class="img-responsive bottom-pad">
-                </div>
-                <div class="col-xs-12 col-sm-2 col-md-2">
-                    <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Evening_Standard_logo-web.png" class="img-responsive bottom-pad">
-                </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/mcsaatchi.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/universal-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Virgin_Logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/nhs-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/MSFT_logo_web.png" class="img-responsive bottom-pad">
             </div>
             <div class="row clearfix">
-                <h2 class="col-md-12 text-center top-padd bottom-pad">...and by over 300,000 others</h2>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Boden-Logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/jpmorgan-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/innocent-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/brunswick-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/converse-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/SABMiller-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="row clearfix">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/topshop-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Unilever_logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/morrison's-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/frankpr_logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/max-factor-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/GStar_Raw-web.png" class="img-responsive bottom-pad">
+            </div>
+             <div class="row clearfix">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2 offset1">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/jigsaw-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/korn-ferry-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Logo-The-Guardian-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/dr-martens-logo-web.png" class="img-responsive bottom-pad">
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <img alt="Google" src="http://az678975.vo.msecnd.net/content/img/logos/Evening_Standard_logo-web.png" class="img-responsive bottom-pad">
             </div>
         </div>
-    </section>
+        <div class="row clearfix">
+            <h2 class="col-md-12 text-center top-padd bottom-pad">...and by over 300,000 others</h2>
+        </div>
+    </div>
+</section>
 
 <!-- Footer -->
 <section>

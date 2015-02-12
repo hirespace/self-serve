@@ -97,3 +97,81 @@
 	font-style: normal;
 	font-size: 18px;
 }
+
+.closer {
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+@media (max-width: 991px) {
+    .thumbnail h2 {
+    	font-size: 30px;
+		padding: 15px;
+    }
+    .thumbnail h3 {
+    	font-size: 30px;
+		padding: 15px 0;
+		margin: 0 20px 10px 20px;
+    }
+    .thumbnail ul {
+    	height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+	h2.h1 {
+		font-size: 26px;
+	}
+	.thumbnail {
+		margin-bottom: 40px;
+	}
+    .thumbnail ul {
+    	height: auto;
+    }
+    .thumbnail h2 {
+    	font-size: 28px;
+		padding: 10px;
+    }
+    .quote-entry .quote-description q:before,
+	.quote-entry .quote-description q:after {
+		font-size: 60px;
+		vertical-align: -0.35em;
+	}
+    .quote-entry .quote-description {
+    	font-size: 26px;
+    	margin-left: 22%;
+    }
+    .quote-img {
+    	width: 18%;
+    }
+}
+
+@media (max-width: 507px) {
+	.quote-entry .quote-description q:before,
+	.quote-entry .quote-description q:after {
+		font-size: 40px;
+	}
+    .quote-entry .quote-description {
+    	font-size: 20px;
+    }
+    .quote-entry .quoter {
+    	font-size: 14px;
+    }
+}
+
+@media (max-width: 479px) {
+	.quote-img {
+    	width: 20%;
+    	margin: 0 auto;
+    	display: block;
+    	float:none;
+    }
+    .quote-entry .quote-description {
+    	margin-left: 0;
+    	text-align: center;
+    	margin-top: 15px;
+    }
+    .hidden-xs-inline {
+    	display:none;
+    }
+}
